@@ -339,7 +339,7 @@ st.title('Ondemand Revenue Search')
 start_date = st.date_input('Start Date')
 end_date = st.date_input('End Date')
 company_name = st.text_input('Company Name')
-partner_name = st.text_input('Partner Name')
+partner_name = st.text_input('Asset')
 
 # Process the data when the user clicks the button
 if st.button('Search'):
