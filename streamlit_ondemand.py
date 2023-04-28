@@ -11,6 +11,7 @@ import time
 import requests
 from CatailystPythonTools.helpers import names_2_ciks, extract_date, clean_name, base_name, abbr_name
 import nltk
+nltk.download('all')
 
 USER_AGENT = "Catailyst Inc Catailyst333@gmail.com"
 
